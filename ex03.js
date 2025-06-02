@@ -3,7 +3,13 @@
 // Verify that the Set only keeps unique values by logging it to the console.
 
 const uniqueNumbers = new Set();
-
+uniqueNumbers.add(3)
+uniqueNumbers.add(23)
+uniqueNumbers.add(56)
+uniqueNumbers.add(78)
+uniqueNumbers.add("3")
+uniqueNumbers.add(56)
+uniqueNumbers.add(78)
 // Your code here
 
 console.log(uniqueNumbers);

@@ -5,7 +5,7 @@
 const car = {
   brand: 'Toyota',
   logBrand() {
-    // Your code here
+    console.log(`The brand  of my card is ${this.brand}`)
   }
 };
 
